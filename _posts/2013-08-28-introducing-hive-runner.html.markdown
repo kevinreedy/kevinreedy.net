@@ -4,11 +4,11 @@ title: Introducing Hive Runner
 date: 2013-08-28 11:34 CDT
 ---
 
-Mirrored from [Belly's Tech Blog](https://tech.bellycard.com/blog/introducing-hive-runner/)
-
 At Belly, we are all about data. We make frequent iterations to products and internal processes and track how well the iterations succeed. We understand the importance of A/B testing, and one of the many tools we use to make decisions from those tests is Apache Hive.
 
 Hive is a data warehouse tool for Apache Hadoop originally written by Facebook. Hive provides a SQL-like interface into large data sets in Hadoop, which makes summarizing large amounts of data very easy for both developers and non-developers. Hive Query Language (HiveQL) saves users the trouble of having to write or understand typical map/reduce jobs.
+
+<!-- more -->
 
 Every employee at Belly has the ability to query our user data to make informed decisions. With summarized data in mind, we can customize our platform and products to provide the best experience possible for our users.
 
@@ -104,3 +104,5 @@ Hive Runner is open source software and available at [GitHub](https://github.com
 * [Hue](http://cloudera.github.io/hue/)
 * [Apache Oozie](http://oozie.apache.org/)
 * [Chronos: A Replacement for Cron](http://nerds.airbnb.com/introducing-chronos/)
+
+Mirrored from [Belly's Tech Blog](https://tech.bellycard.com/blog/introducing-hive-runner/)

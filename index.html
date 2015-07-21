@@ -14,6 +14,15 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        <div class="post-content-truncate">
+          {% if post.content contains "<!-- more -->" %}
+            {{ post.content | split:"<!-- more -->" | first % }}
+          {% else %}
+            {{ post.content | strip_html | truncatewords:100 }}
+          {% endif %}
+        </div>
+        <a href="{{ post.url | prepend: site.baseurl }}">Read More...</a>
       </li>
     {% endfor %}
   </ul>

@@ -4,11 +4,11 @@ title: Just Another Monday
 date: 2013-11-01 13:00 CDT
 ---
 
-Mirrored from [Belly's Tech Blog](https://tech.bellycard.com/blog/just-another-monday/)
-
 A large portion of my day-to-day work at Belly is in a supporting role, which means I get interrupted quite a bit. To combat this, I try to work remotely every once in a while. It's a great change of pace and allows me to make significant progress on a single task. Usually this means I work from home, but sometimes a couple of us on the backend team work together out of coffee shops on a single project.
 
 At the end of August, I took a short mid-week trip to The Twin Cities to visit a couple of friends and go to the Minnesota State Fair. Trust me - the state fair is way more awesome than you think it is. Thanks to my friend [Eryn](https://twitter.com/eryno), I was able to work for two days out of [Clockwork Active Media's](http://www.clockwork.net/) incredible office. While I was there, Eryn asked me, "What do you sysadmins actually *do* all day? Look at graphs and cat pictures?" I responded with, "Not quite, but this could be a most excellent blog post."
+
+<!-- more -->
 
 Here is a breakdown of a Monday earlier this month with some more details below.
 
@@ -79,3 +79,5 @@ Because we now have several applications that need access to these files, the de
 
 ## MySQL Access
 We have a MySQL slave that is dedicated for ad-hoc queries, but it isn't open to the public internet or our office network. We require using an SSH Tunnel and connecting with a passphrase-encrypted SSH key rather than a password.
+
+Mirrored from [Belly's Tech Blog](https://tech.bellycard.com/blog/just-another-monday/)
