@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Hive Runner
+title: "Introducing Hive Runner"
 date: 2013-08-28 11:34 CDT
 ---
 
@@ -18,7 +18,7 @@ Hive also gives us insight into optimizing when to send email to our users. We f
 
 With data supporting our decisions, we make better connections with our users so they can get more out of the loyalty service we provide.
 
-## Belly's Hadoop Infrastructure
+### Belly's Hadoop Infrastructure
 
 At Belly, we run Cloudera's distribution of Hadoop on dedicated servers. While most of our infrastructure runs on Amazon Web Services, dedicated servers give us much better network, disk, and CPU performance per dollar. However, we do lose the ability to quickly scale up or down our Hadoop infrastructure while on dedicated servers.
 
@@ -26,7 +26,7 @@ Data is loaded into our Hadoop infrastructure using Fluentd, which is an open-so
 
 Most of Belly's employees interact with our Hadoop Infrastructure via Cloudera Hue, which is a Web UI for Hadoop. Beeswax is a tool within Hue for interacting with Hive and allows users to run queries, save and edit queries, view query results, and view table metadata.
 
-## The Missing Puzzle Piece
+### The Missing Puzzle Piece
 
 While Hive and Beeswax are great for doing one-off queries into our data, we wanted a simple way for any employee to run a Hive query on a schedule - hourly, daily, or weekly. Existing tools like Apache Oozie and Airbnb's Chronos are either too complicated or overkill for this task. We wanted a UI for scheduling queries that was immediately familiar to all of our users and their broad range of experience levels.
 
@@ -34,9 +34,9 @@ We wrote [Hive Runner](https://github.com/bellycard/hiverunner) to fill this gap
 
 We also have an internal tool that standardizes the creation of custom D3 charts to visually convey a large set of data. These dashboards visualize our data to tell a complete story for a product. The data set for these charts is easily retrieved from the Memcache store without the need for a system engineer or back-end developer to do any more configuration. Hive Runner makes the data available for any client to consume.
 
-## Using Hive Runner
+### Using Hive Runner
 
-### Requirements
+#### Requirements
 
 * **Python 2.7**
 * **Cloudera Beeswax**: Beeswax, which is a part of Cloudera Hue, must be using a MySQL Database for its storage, rather than SQLite.
@@ -44,13 +44,13 @@ We also have an internal tool that standardizes the creation of custom D3 charts
 * **Memcached**: You must have Memcached running somewhere.
 * **Pip**: Pip is used for Python package dependency.
 
-### Installation
+#### Installation
 
 * Optionally, create a VirtualEnv: `virtualenv environment-name`
 * Optionally, use your VirtualEnv: `source environment-name/bin/activate`
 * Install Hive Runner via pip: `pip install hiverunner`
 
-### Usage
+#### Usage
 
 Hive Runner has flexible parameters. Available options can be seen by running `hiverunner --help`.
 
@@ -96,7 +96,7 @@ This format makes it easy to schedule cron jobs.
 
 Hive Runner is open source software and available at [GitHub](https://github.com/bellycard/hiverunner). Bug reports, feature requests, and contributions are welcome!
 
-## Further Reading
+### Further Reading
 
 * [Hive](http://hive.apache.org/)
 * [Hadopp](http://hadoop.apache.org/)

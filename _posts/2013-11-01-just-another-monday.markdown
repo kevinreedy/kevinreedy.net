@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Just Another Monday
+title: "Just Another Monday"
 date: 2013-11-01 13:00 CDT
 ---
 
@@ -35,13 +35,13 @@ Here is a breakdown of a Monday earlier this month with some more details below.
 
 <a name="Weekly Fireside Meeting"></a>
 
-## Weekly Fireside Meeting
+### Weekly Fireside Meeting
 
 On Monday mornings, the entire engineering team gathers around the couches for a quick status update of ongoing projects and what we plan to work on that week. This is a bit longer than a stand-up meeting, but we intentionally stay out of a conference room to keep this short.
 
 <a name="Check-ins Map"></a>
 
-## Check-ins Map
+### Check-ins Map
 
 During a hack time in the past, [Marty](https://twitter.com/martytrzpit) wanted to create a real time map of Check-ins. While I'm sure this warrants its own blog post, here is a short description of how we created it.
 
@@ -49,13 +49,13 @@ We currently use [Fluentd](http://fluentd.org/) to pass around our event logs. T
 
 <a name="Food Trucks"></a>
 
-## Food Trucks
+### Food Trucks
 
 While we do have a great office, there are not very many options for lunch nearby. Fortunately, between two and seven food trucks come by the office every day. Some of my personal favorites are [The Fat Shallot](https://twitter.com/thefatshallot), [The Roost](https://twitter.com/TheRoostTruck), [Windy City Patty Wagon](https://twitter.com/WattyPagon), and [The Southern Mac & Cheese Truck](https://twitter.com/thesouthernmac).
 
 <a name="Event Definitions Repository"></a>
 
-## Event Definitions Repository
+### Event Definitions Repository
 
 We have a large number of events that we log from many sources including our mobile apps, our API, and Salesforce. These events are defined in a series of YAML files that used to be in the git repository of the one application that used them. Here's an example of one event definition:
 
@@ -77,7 +77,7 @@ Because we now have several applications that need access to these files, the de
 
 <a name="MySQL Access"></a>
 
-## MySQL Access
+### MySQL Access
 We have a MySQL slave that is dedicated for ad-hoc queries, but it isn't open to the public internet or our office network. We require using an SSH Tunnel and connecting with a passphrase-encrypted SSH key rather than a password.
 
 Mirrored from [Belly's Tech Blog](https://tech.bellycard.com/blog/just-another-monday/)
