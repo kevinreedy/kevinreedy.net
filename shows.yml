@@ -1,0 +1,566 @@
+shows:
+  - date: 2006-08-10
+    venue: Congress Theater
+    city: Chicago, IL
+    artists:
+      - Reel Big Fish
+      - MXPX
+      - Streetlight Manifesto
+      - Whole Wheat Bread
+  - date: 2011-08-05
+    venue: Congress Theater
+    city: Chicago, IL
+    artists:
+      - Pretty Lights
+  - date: 2011-09-02
+    venue: The Mid
+    city: Chicago, IL
+    artists:
+      - Wolfgang Gartner
+  - date: 2011-09-03
+    venue: Double Door
+    city: Chicago, IL
+    artists:
+      - Gramatik
+      - Boombox
+  - date: 2011-10-21
+    name: Isam Live
+    venue: Congress Theater
+    city: Chicago, IL
+    artists:
+      - Amon Tobin
+  - date: 2012-01-07
+    venue: Metro
+    city: Chicago, IL
+    artists:
+      - The Lawrence Arms
+  - date: 2012-02-03
+    venue: House of Blues
+    city: Chicago, IL
+    artists:
+      - AM Taxi
+      - State and Madison
+  - date: 2012-02-03
+    venue: Spybar
+    city: Chicago, IL
+    artists:
+      - Chris Lake
+  - date: 2012-02-10
+    venue: Subterranean
+    city: Chicago, IL
+    artists:
+      - K Flay
+  - date: 2012-03-30
+    venue: The Mid
+    city: Chicago, IL
+    artists:
+      - Wolfgang Gartner
+  - date: 2012-04-18
+    venue: Lincoln Hall
+    city: Chicago, IL
+    artists:
+      - RJD2
+  - date: 2012-05-25
+    venue: Metro
+    city: Chicago, IL
+    artists:
+      - Blood Red Boots
+  - date: 2012-05-25
+    venue: Spybar
+    city: Chicago, IL
+    artists:
+      - James Zabiela
+  - date: 2012-06-02
+    venue: Smart Bar
+    city: Chicago, IL
+    artists:
+      - Christina Chatfield
+      - Tyrel Williams
+  - date: 2012-06-08
+    venue: The Mid
+    city: Chicago, IL
+    artists:
+      - Martin Solveig
+  - date: 2012-08-02
+    venue: Spybar
+    city: Chicago, IL
+    artists:
+      - Flosstradamus
+  - date: 2012-08-03
+    venue: Beat Kitchen
+    city: Chicago, IL
+    artists:
+      - Sundowner
+      - Dave Hause
+  - date: 2012-08-05
+    name: Lollapalooza 2012
+    venue: Grant Park
+    city: Chicago, IL
+    artists:
+      - Justice
+      - At The Drive-In
+      - Big Gigantic
+      - The Gaslight Anthem
+  - date: 2012-08-31
+    name: North Coast Music Festival 2012
+    venue: Union Park
+    city: Chicago, IL
+    artists:
+      - Paul Oakenfold
+      - Mord Fustang
+      - Zion I
+  - date: 2012-09-01
+    name: North Coast Music Festival 2012
+    venue: Union Park
+    city: Chicago, IL
+    artists:
+      - Girl Talk
+      - Felix Da Housecat
+      - Gramatik
+      - Atmosphere
+      - Beats Antique
+  - date: 2012-09-02
+    name: North Coast Music Festival 2012
+    venue: Union Park
+    city: Chicago, IL
+    artists:
+      - Pretty Lights
+      - Digitalism
+      - Maya Jane Coles
+  - date: 2012-09-02
+    venue: Transit
+    city: Chicago, IL
+    artists:
+      - Claude VonStroke
+      - Maya Jane Coles
+      - Justin Martin
+  - date: 2012-09-15
+    name: Riot Fest 2012
+    venue: Humboldt Park
+    city: Chicago, IL
+    artists:
+      - Rise Against
+      - Dropkick Murphys
+      - Coheed and Cambria
+      - Slapstick
+      - The Gaslight Anthem
+      - Andrew WK
+      - Hot Water Music
+  - date: 2012-10-12
+    venue: Park West
+    city: Chicago, IL
+    artists:
+      - Third Eye Blind
+      - Savant
+  - date: 2012-10-12
+    venue: The Mid
+    artists:
+      - Sasha
+      - Zebo
+  - date: 2012-11-16
+    venue: Metro
+    city: Chicago, IL
+    artists:
+      - Richie Hawtin
+      - Kevin Saunderson
+  - date: 2012-11-16
+    venue: Smart Bar
+    city: Chicago, IL
+    artists:
+      - LTJ Bukem
+  - date: 2012-11-24
+    venue: Metro
+    city: Chicago, IL
+    artists:
+      - The Lawrence Arms
+  - date: 2012-11-26
+    venue: The Gingerman Tavern
+    city: Chicago, IL
+    artists:
+      - Sundowner
+  - date: 2012-12-14
+    venue: The Mid
+    city: Chicago, IL
+    artists:
+      - Claude VonStroke
+      - Totally Enormous Extint Dinosaurs
+      - Zebo
+  - date: 2012-12-19
+    venue: The Cubby Bear
+    city: Chicago, IL
+    artists:
+      - Tegan and Sara
+  - date: 2013-01-18
+    venue: Dolphin
+    city: Chicago, IL
+    artists:
+      - The Crystal Method
+  - date: 2013-02-09
+    venue: Bottom of the Hill
+    city: San Francisco, CA
+    artists:
+      - Sundowner
+  - date: 2013-05-31
+    venue: Smart Bar
+    city: Chicago, IL
+    artists:
+      - Eats Everything
+  - date: 2013-06-27
+    venue: American Junkie
+    city: Chicago, IL
+    artists:
+      - Calvin Harris
+  - date: 2013-07-05
+    name: Wavefront Music Festival 2013
+    venue: Montrose Beach
+    city: Chicago, IL
+    artists:
+      - Maya Jane Coles
+      - Chris Lake
+      - Orchard Lounge
+  - date: 2013-07-06
+    name: Wavefront Music Festival 2013
+    venue: Montrose Beach
+    city: Chicago, IL
+    artists:
+      - Frankie Knuckles
+      - Dubfire
+      - Fatboy Slim
+      - AC Slater
+      - Derrick Carter
+      - DJ Psycho-Bitch
+      - Terri Bristol
+  - date: 2013-07-07
+    name: Wavefront Music Festival 2013
+    venue: Montrose Beach
+    city: Chicago, IL
+    artists:
+      - Justice
+      - Diplo
+  - date: 2013-07-11
+    venue: Bottom Lounge
+    city: Chicago, IL
+    artists:
+      - DJ Overzero
+      - Wo!Jo!
+      - Blood Red Boots
+  - date: 2013-09-13
+    name: Riot Fest 2013
+    venue: Humboldt Park
+    city: Chicago, IL
+    artists:
+      - Fall Out Boy
+      - Sublime with Rome
+      - Joan Jett & The Blackhearts
+      - Bad Religion
+      - Yellowcard
+  - date: 2013-09-14
+    name: Riot Fest 2013
+    venue: Humboldt Park
+    city: Chicago, IL
+    artists:
+      - Blink-182
+      - Violent Femmes
+      - Takin Back Sunday
+      - Rancid
+      - The Lawrence Arms
+      - Pennywise
+  - date: 2013-09-15
+    name: Riot Fest 2013
+    venue: Humboldt Park
+    city: Chicago, IL
+    artists:
+      - Pixies
+      - AFI
+      - Brand New
+      - Saves the Day
+      - Against Me!
+  - date: 2013-10-04
+    venue: Synergize Studios
+    city: San Francisco, CA
+    artists:
+      - Claude VonStroke
+  - date: 2013-10-18
+    venue: Park West
+    city: Chicago, IL
+    artists:
+      - Fitz & The Tantrums
+  - date: 2013-10-18
+    venue: Spybar
+    city: Chicago, IL
+    artists:
+      - Hot Since 82
+  - date: 2013-11-09
+    venue: Aragon Ballroom
+    city: Chicago, IL
+    artists:
+      - Pretty Lights
+      - Eliot Lipp
+  - date: 2013-11-16
+    venue: Spybar
+    city: Chicago, IL
+    artists:
+      - Claude VonStroke
+      - J.Phlip
+  - date: 2013-12-05
+    venue: Primary
+    city: Chicago
+    artists:
+      - Vanilla Ace
+  - date: 2013-12-06
+    venue: The Mid
+    city: Chicago, IL
+    artists:
+      - Pete Tong
+      - Derrick Carter
+      - Zebo
+      - Mia Wallace
+  - date: 2013-12-27
+    venue: The Mid
+    city: Chicago, IL
+    artists:
+      - Tiga
+      - Justin Martin
+      - Zebo
+  - date: 2014-02-22
+    venue: Primary
+    city: Chicago, IL
+    artists:
+      - Digitalism
+      - Miranda Wright
+  - date: 2014-03-20
+    venue: Double Door
+    city: Chicago, IL
+    artists:
+      - Beast Warrior
+  - date: 2014-04-24
+    venue: Subterranean
+    city: Chicago, IL
+    artists:
+      - Beast Warrior
+  - date: 2014-04-25
+    venue: The Mid
+    city: Chicago, IL
+    artists:
+      - Duke Dumont
+      - MK
+      - Zebo
+  - date: 2014-05-02
+    venue: Primary
+    city: Chicago, IL
+    artists:
+      - Orchard Lounge
+      - My Boy Elroy
+  - date: 2014-05-28
+    venue: Subterranean
+    city: Chicago, IL
+    artists:
+      - Sundowner
+  - date: 2014-05-31
+    venue: Primary
+    city: Chicago, IL
+    artists:
+      - Christian Martin
+      - Worthy
+      - Derek Specs
+  - date: 2015-06-07
+    venue: Metro
+    city: Chicago, IL
+    artists:
+      - The Lawrence Arms
+  - date: 2014-06-11
+    name: Wild Life
+    venue: Lincoln Park Zoo
+    city: Chicago, IL
+    artists:
+      - Disclosure
+      - Green Velvet
+  - date: 2014-06-14
+    name: Spring Awakening Music Festival 2014
+    venue: Soldier Field
+    city: Chicago, IL
+    artists:
+      - Pretty Lights
+      - Claude VonStroke
+      - Green Velvet
+      - Pete Tong
+      - Derrick Carter
+      - Moon Boots
+      - Miranda Wright
+  - date: 2014-07-25
+    venue: Subterranean
+    city: Chicago, IL
+    artists:
+      - RJD2
+  - date: 2014-08-02
+    name: Lollapalooza 2014
+    venue: Grant Park
+    city: Chicago, IL
+    artists:
+      - Outkast
+      - Gramatik
+      - Duke Dumont
+      - Chase & Status
+      - Z-Trip
+  - date: 2014-08-29
+    name: North Coast Music Festival 2014
+    venue: Union Park
+    city: Chicago, IL
+    artists:
+      - Bassnectar
+      - Lettuce
+      - Orchard Lounge
+  - date: 2014-08-29
+    venue: House of Blues
+    city: Chicago, IL
+    artists:
+      - Future Rock
+      - Orchard Lounge
+  - date: 2014-08-30
+    name: North Coast Music Festival 2014
+    venue: Union Park
+    city: Chicago, IL
+    artists:
+      - J.Phlip
+      - Savant
+      - Thibault
+      - Break Science
+      - My Boy Elroy
+      - Wyllys
+  - date: 2014-08-31
+    name: North Coast Music Festival 2014
+    venue: Union Park
+    city: Chicago, IL
+    artists:
+      - Snoop Dogg
+      - Auto Body
+      - Griz
+      - Cosby Sweater
+  - date: 2014-08-31
+    venue: Transit
+    city: Chicago, IL
+    artists:
+      - MK
+      - Kevin Saunderson
+      - J.Phlip
+  - date: 2014-09-12
+    name: Riot Fest 2014
+    venue: Humboldt Park
+    city: Chicago, IL
+    artists:
+      - "Jane's Addiction"
+      - Rise Against
+      - The Offspring
+      - NOFX
+  - date: 2014-09-13
+    name: Riot Fest 2014
+    venue: Humboldt Park
+    city: Chicago, IL
+    artists:
+      - Taking Back Sunday
+      - Die Antwoord
+      - City and Colour
+      - The Used
+      - Mighty Mighty Boss Tones
+      - The Get Up Kids
+      - Streetlight Manifesto
+      - RX Bandits
+  - date: 2014-09-14
+    name: Riot Fest 2014
+    venue: Humboldt Park
+    city: Chicago, IL
+    artists:
+      - Weezer
+      - Tegan and Sara
+      - Cheap Trick
+      - Dropkick Murphys
+      - New Found Glory
+      - Motion City Soundtrack
+      - Andrew W.K.
+  - date: 2014-10-17
+    venue: Metro
+    city: Chicago, IL
+    artists:
+      - Alkaline Trio
+  - date: 2014-12-26
+    venue: Don Pedro
+    city: Brooklyn, NY
+    artists:
+      - "Tesla's Revenge"
+  - date: 2014-12-31
+    name: Dirtybird New Years Eve
+    venue: Lacuna Lofts
+    city: Chicago, IL
+    artists:
+      - Justin Martin
+      - J.Phlip
+      - Christian Martin
+      - Ardalan
+  - date: 2015-03-07
+    venue: "Martyrs'"
+    city: Chicago, IL
+    artists:
+      - Nasty Snacks
+  - date: 2015-05-17
+    venue: Riviera Theater
+    city: Chicago, IL
+    artists:
+      - Streetlight Manifesto
+  - date: 2015-05-21
+    name: Summer Camp Music Festival 2015
+    venue: Three Sisters Park
+    city: Chillicothe, IL
+    artists:
+      - Future Rock
+      - Turbo Suit
+      - The Infamous Stringdusters
+  - date: 2015-05-22
+    name: Summer Camp Music Festival 2015
+    venue: Three Sisters Park
+    city: Chillicothe, IL
+    artists:
+      - Claude VonStroke
+      - Daft Rock
+      - Trampled By Turtles
+      - Krewella
+      - Brodinski
+      - Digital Tape Machine
+  - date: 2015-05-23
+    name: Summer Camp Music Festival 2015
+    venue: Three Sisters Park
+    city: Chillicothe, IL
+    artists:
+      - A-Trak
+      - Violent Femmes
+      - Paul Oakenfold
+      - "Umphrey's McGee"
+      - Victor Wooten
+      - Pink Talking Fish
+      - Bakermat
+  - date: 2015-05-24
+    name: Summer Camp Music Festival 2015
+    venue: Three Sisters Park
+    city: Chillicothe, IL
+    artists:
+      - Steve Miller Band
+      - Greensky Bluegrass
+      - Big Gigantic
+      - Griz
+      - Wick-It The Instigator
+  - date: 2015-06-04
+    name: Shipwrecked
+    venue: Anita Dee II
+    city: Chicago, IL
+    artists:
+      - Christian Martin
+      - Worthy
+  - date: 2015-06-28
+    venue: Fizz Bar & Grill
+    city: Chicago, IL
+    artists:
+      - "Tesla's Revenge"
+  - date: 2015-07-17
+    venue: "Martyrs'"
+    city: Chicago, IL
+    artists:
+      - Beast Warrior
