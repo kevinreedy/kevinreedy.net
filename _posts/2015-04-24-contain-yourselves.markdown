@@ -10,6 +10,10 @@ In this Lightning talk at [DevOpsDays Rockies](http://www.devopsdaysrox.org/), I
 
 <!-- more -->
 
+### Video
+
+<iframe src="http://livestream.com/accounts/1466347/events/3991534/videos/84970057/player?autoPlay=false&height=416&mute=false&width=740" width="740" height="416" frameborder="0" scrolling="no"></iframe>
+
 ### Slides
 
 <script async class="speakerdeck-embed" data-id="0d4b8236b4b341cabfdefbfb1ec81350" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
