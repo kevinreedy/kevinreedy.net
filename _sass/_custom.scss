@@ -1,0 +1,23 @@
+/**
+ * Headshot
+ */
+.about-headshot {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+}
+
+.about-headshot img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.about-text p {
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+}
