@@ -1,3 +1,13 @@
+- org: Belly
+  role: Infrastructure Architect
+  location: Chicago, IL
+  when: November 2012 - Present
+  bullets:
+    - "Moved code deployment to a system utilizing Chef and Vagrant so developers can easily deploy to production or staging and spin up a development environment that mirrors production"
+    - "Designed and implemented a user events logging and analysis system utilizing FluentD, RabbitMQ, S3, and Hadoop"
+    - "Identified and removed single points of failure in existing infrastructure"
+    - "Used Chef, Nginx, and Route 53 to create a scalable load balancer topology that is dynamically configured based on where services are running (EC2, Heroku, S3, etc)"
+
 - org: Tap.Me
   role: Backend Engineer
   location: Chicago, IL
