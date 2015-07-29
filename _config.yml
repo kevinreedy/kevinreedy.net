@@ -1,14 +1,22 @@
 # Site settings
 title: kevinreedy.net
+author: Kevin Reedy
 email: kevinreedy@gmail.com
 description: >
   Bits.
   Beats.
   Things that start with 'B' for $800.
+meta_description: >
+  Homepage of Kevin Reedy, Infrastructure Architect at Belly and Automation Enthusiast, from Chicago, IL.
+  He has a love/hate relationship with the word DevOps.
+  In his free time, he enjoys Brewing Beer, Snowboarding, and DJing.
 baseurl: ""
 url: "http://kevinreedy.net" # the base hostname & protocol for your site
 twitter_username: kevinreedy
 github_username:  kevinreedy
+
+gems:
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
