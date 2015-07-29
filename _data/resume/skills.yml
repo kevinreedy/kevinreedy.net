@@ -1,0 +1,78 @@
+- Automation:
+    primary:
+      - chef
+      - puppet
+      - kickstart
+      - unattended
+      - a fundamental hatred of expect.pm
+- Languages:
+    primary:
+      - php
+      - python
+      - perl
+      - javascript
+      - html5
+      - bash
+      - ruby
+      - c
+      - "ti-83 basic"
+- Web Servers:
+    primary:
+      - apache
+      - nginx
+      - lighttpd
+      - haproxy
+      - "`nc -l 80`"
+- Databases:
+    primary:
+      - mysql
+      - mongodb
+      - cassandra
+      - memcache
+      - leveldb
+      - csv
+- Monitoring:
+    primary:
+      - nagios
+      - graphite
+      - collectd
+      - cacti
+      - munin
+      - the refresh button
+- Virtualization:
+    primary:
+      - aws
+      - rackspace cloud
+      - linode
+      - vmware
+      - kvm
+      - xen
+      - virtualbox
+      - chroot
+- Protocols:
+    primary:
+      - tcp/ip
+      - ipv6
+      - bgp
+      - ospf
+      - rip
+      - rfc6593
+- Operating Systems:
+    primary:
+      - linux
+      - ubuntu
+      - debian
+      - macos x
+      - junos
+      - cisco ios
+      - apple ios
+      - android
+      - msdos 6.22
+- Other:
+    primary:
+      - git
+      - svn
+      - bind
+      - quagga
+      - openvpn
+      - snowboarding
