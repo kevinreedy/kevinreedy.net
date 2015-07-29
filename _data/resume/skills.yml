@@ -1,78 +1,83 @@
 - Automation:
     primary:
-      - chef
-      - puppet
-      - kickstart
-      - unattended
-      - a fundamental hatred of expect.pm
+      - Chef
+      - Packer
+      - Vagrant
+      - Test Kitchen
+      - Amazon CloudFormation
+    secondary:
+      - Terraform
+      - Puppet
+      - Kickstart
 - Languages:
     primary:
-      - php
-      - python
-      - perl
-      - javascript
-      - html5
-      - bash
-      - ruby
-      - c
-      - "ti-83 basic"
+      - Ruby
+      - Python
+      - Bash
+    secondary:
+      - PHP
+      - Perl
+      - HTML
+      - CSS / SASS
+      - JavaScript
+      - C
+      - Java
 - Web Servers:
     primary:
-      - apache
-      - nginx
-      - lighttpd
-      - haproxy
-      - "`nc -l 80`"
+      - NGINX
+      - Apache
+    secondary:
+      - HAProxy
+      - Lighttpd
 - Databases:
     primary:
-      - mysql
-      - mongodb
-      - cassandra
-      - memcache
-      - leveldb
-      - csv
+      - MySQL
+      - Redis
+      - Elasticsearch
+      - Hadoop
+      - Hive
+      - MongoDB
+    secondary:
+      - Redshift
+      - Cassandra
+      - MemcacheD
+      - PostgreSQL
 - Monitoring:
     primary:
-      - nagios
-      - graphite
-      - collectd
-      - cacti
-      - munin
-      - the refresh button
-- Virtualization:
+      - Sensu
+      - Nagios
+      - Graphite
+      - StatsD
+      - CollectD
+      - New Relic
+      - Datadog
+    secondary:
+      - Cacti
+      - Munin
+- Other Systems:
     primary:
-      - aws
-      - rackspace cloud
-      - linode
-      - vmware
-      - kvm
-      - xen
-      - virtualbox
-      - chroot
-- Protocols:
-    primary:
-      - tcp/ip
-      - ipv6
-      - bgp
-      - ospf
-      - rip
-      - rfc6593
-- Operating Systems:
-    primary:
-      - linux
-      - ubuntu
-      - debian
-      - macos x
-      - junos
-      - cisco ios
-      - apple ios
-      - android
-      - msdos 6.22
-- Other:
-    primary:
-      - git
-      - svn
-      - bind
-      - quagga
-      - openvpn
-      - snowboarding
+      - Amazon Web Services (including EC2, VPC, RDS, ElastiCache, S3, CloudFront, Route 53, CloudWatch, and IAM)
+      - Docker
+      - Consul
+      - RabbitMQ
+      - Logstash
+      - Sidekiq
+      - FluentD
+      - Git
+      - CircleCI
+      - Travis CI
+      - ChatOps
+    secondary:
+      - Rails
+      - Mesos / Marathon
+      - OpenStack
+      - BIND DNS Server
+      - Cisco IOS
+      - OpenVPN
+      - IPSEC VPN
+      - BGP
+      - Quagga
+      - KVM
+      - Xen
+      - VMWare vCenter
+      - Subversion
