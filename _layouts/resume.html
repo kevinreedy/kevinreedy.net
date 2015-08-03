@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+    <div class="resume-contact">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a><br />
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">linkedin.com/in/{{ site.linkedin_username }}</a><br />
+        <a href="https://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a><br />
+        <a href="https://twitter.com/{{ site.twitter_username }}">twitter.com/{{ site.twitter_username }}</a>
+    </div>
+    <div class="resume-name">
+        <h1>Kevin Reedy</h1>
+    </div>
 {% for section in site.data.resume.sections %}
     <div class="section">
         <h2 id="{{ section.id }}">
