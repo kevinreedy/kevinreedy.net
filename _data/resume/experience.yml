@@ -1,0 +1,38 @@
+- org: Belly
+  role: Infrastructure Architect
+  location: Chicago, IL
+  when: November 2012 - Present
+  bullets:
+    - "Led a team of Infrastructure Engineers"
+    - "Designed and created a Ruby-based deployment orchestration system using Docker, Consul, CoreOS, and GitHub"
+    - "Migrated all systems into Amazon Virtual Private Cloud with zero downtime"
+    - "Used Chef, Nginx, Consul, and Route 53 to create a scalable load balancer topology that is dynamically configured based on where services are running (EC2, Heroku, S3, etc)"
+    - "Designed and implemented a user events logging and analysis system utilizing FluentD, RabbitMQ, S3, and Hadoop"
+    - "Identified and removed single points of failure in existing infrastructure"
+
+- org: Tap.Me
+  role: Backend Engineer
+  location: Chicago, IL
+  when: May 2011 - November 2012
+  bullets:
+    - "Used Chef to automate the deployment of servers, software, and code"
+    - "Created a scalable Python and AMQP based notification system using Apple's APNS, Android's C2DM, and SMS"
+    - "Moved services to a hybrid of physical machines and cloud servers to get the cost and performance benefits of physical servers with the scaling benefits of the cloud"
+    - "Set up monitoring systems using a combination of nagios, graphite, and collectd"
+
+- org:  OpenDNS
+  role: System Administrator
+  location: San Francisco, CA
+  when: June 2009 - May 2011
+  bullets:
+    - "Worked on a system/network operations team that maintained 15 datacenters worldwide that processed over 30 billion DNS queries per day"
+    - "Configured and Administered Cisco and Juniper Routers and Switches in a BGP Anycasted network"
+    - "Configured and Administered a large network of Linux servers for both customer-facing and internal services"
+
+- org:  Riverbed Technology
+  role: Lab Engineer
+  location: San Francisco, CA
+  when: October 2007 - June 2009
+  bullets:
+    - "Worked on an automation and deployment code-base, specifically integration with VMware vCenter, Lantronix Console Servers, APC Power Distribution Systems, and Kickstart"
+    - "Planned and carried out the move of two datacenters with minimal customer-facing downtime"

@@ -1,0 +1,82 @@
+- Automation:
+    primary:
+      - Chef
+      - Packer
+      - Vagrant
+      - Test Kitchen
+      - Amazon CloudFormation
+    secondary:
+      - Terraform
+      - Puppet
+      - Kickstart
+- Languages:
+    primary:
+      - Ruby
+      - Python
+      - Bash
+    secondary:
+      - PHP
+      - Perl
+      - HTML
+      - CSS / SASS
+      - JavaScript
+      - C
+      - Java
+- Web Servers:
+    primary:
+      - NGINX
+      - Apache
+    secondary:
+      - HAProxy
+      - Lighttpd
+- Databases:
+    primary:
+      - MySQL
+      - Redis
+      - Elasticsearch
+      - Hadoop
+      - Hive
+      - MongoDB
+    secondary:
+      - Redshift
+      - Cassandra
+      - MemcacheD
+      - PostgreSQL
+- Monitoring:
+    primary:
+      - Sensu
+      - Nagios
+      - Graphite
+      - StatsD
+      - CollectD
+      - New Relic
+      - Datadog
+    secondary:
+      - Cacti
+      - Munin
+- Other Systems:
+    primary:
+      - Amazon Web Services (including EC2, VPC, RDS, ElastiCache, S3, CloudFront, Route 53, CloudWatch, and IAM)
+      - Docker
+      - Consul
+      - RabbitMQ
+      - Logstash
+      - Sidekiq
+      - FluentD
+      - Git
+      - CircleCI
+      - Travis CI
+      - ChatOps
+    secondary:
+      - Rails
+      - Mesos / Marathon
+      - OpenStack
+      - BIND DNS Server
+      - Cisco IOS
+      - OpenVPN
+      - IPSEC VPN
+      - BGP
+      - Quagga
+      - KVM
+      - Xen
+      - VMWare vCenter

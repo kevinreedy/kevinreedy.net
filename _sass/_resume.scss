@@ -1,0 +1,80 @@
+/**
+ * Resume
+ */
+.resume-name {
+    h1 {
+        font-weight: 400;
+        font-size: 60px;
+    }
+}
+
+.resume-download {
+    text-align: right;
+    float: right;
+    a {
+        font-size: 12px;
+    }
+}
+
+.resume-contact {
+    text-align: right;
+    float: right;
+}
+
+.cloud-section {
+    margin-top: 5px;
+    h3 {
+        margin-bottom: 0px;
+    }
+    .primary {}
+    .secondary {
+        opacity: .5;
+    }
+}
+.section {
+    h2 {
+        margin-bottom: 5px;
+        font-weight: 400;
+    }
+}
+
+.block {
+    padding: 5px 0;
+
+    .main-row, .sub-row {
+        display: block;
+        clear: both;
+        width: 100%;
+        h1, h2, h3, h4, h5, h6 {
+            padding: 0 0 0 0;
+            margin-bottom: -5px;
+        }
+
+        .role, .org {
+            float: left;
+            text-align: left;
+            width: 50%;
+        }
+        .location, .when {
+            text-align: right;
+            float: right;
+            width: 50%;
+        }
+    }
+
+    ul {
+        padding-top: 10px;
+        clear: both;
+        li {
+            margin-bottom: -15px;
+        }
+    }
+}
+
+// Hide Elements on Print
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+
+}

@@ -13,7 +13,8 @@ meta_description: >
 baseurl: ""
 url: "http://kevinreedy.net" # the base hostname & protocol for your site
 twitter_username: kevinreedy
-github_username:  kevinreedy
+github_username: kevinreedy
+linkedin_username: kevinreedy
 
 gems:
   - jekyll-sitemap
