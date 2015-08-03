@@ -3,8 +3,16 @@
  */
 .resume-name {
     h1 {
-      font-weight: 400;
-      font-size: 60px;
+        font-weight: 400;
+        font-size: 60px;
+    }
+}
+
+.resume-download {
+    text-align: right;
+    float: right;
+    a {
+        font-size: 12px;
     }
 }
 
