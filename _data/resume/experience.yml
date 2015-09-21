@@ -1,7 +1,11 @@
+- org: Chef
+  role: Customer Success Engineer
+  location: Chicago, IL
+  when: September 2015 - Present
 - org: Belly
   role: Infrastructure Architect
   location: Chicago, IL
-  when: November 2012 - Present
+  when: November 2012 - August 2015
   bullets:
     - "Led a team of Infrastructure Engineers"
     - "Designed and created a Ruby-based deployment orchestration system using Docker, Consul, CoreOS, and GitHub"
