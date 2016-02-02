@@ -4,7 +4,7 @@
       - Packer
       - Vagrant
       - Test Kitchen
-      - Amazon CloudFormation
+      - CloudFormation
     secondary:
       - Terraform
       - Puppet
@@ -36,11 +36,9 @@
       - Elasticsearch
       - Hadoop
       - Hive
-      - MongoDB
     secondary:
+      - MongoDB
       - Redshift
-      - Cassandra
-      - MemcacheD
       - PostgreSQL
 - Monitoring:
     primary:
