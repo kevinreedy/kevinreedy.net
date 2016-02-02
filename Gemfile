@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-
-gem 'github-pages'
+gem 'jekyll'
 gem 's3_website'
+gem 'jekyll-sitemap'
