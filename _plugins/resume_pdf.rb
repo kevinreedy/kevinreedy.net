@@ -6,11 +6,12 @@ Jekyll::Hooks.register :pages, :post_write do |page|
 
     kit = PDFKit.new(File.open("#{Jekyll.configuration['destination']}/resume/index.html").read,
       page_size: 'Letter',
-      print_media_type: true,
       margin_top: margin,
       margin_bottom: margin,
       margin_left: margin,
-      margin_right: margin
+      margin_right: margin,
+      print_media_type: true,
+      no_background: true
     )
 
     kit.stylesheets << "#{Jekyll.configuration['destination']}/css/main.css"
