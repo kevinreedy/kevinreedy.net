@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.1
 script:
-  - bundle exec jekyll build
+  - bundle exec jekyll build --verbose
   - if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then bundle exec s3_website push --verbose; fi
 after_success:
   - if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then curl -IL https://www.google.com/webmasters/tools/ping?sitemap=https://kevinreedy.net/sitemap.xml; fi
