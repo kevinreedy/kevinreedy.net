@@ -56,7 +56,7 @@ Hive Runner has flexible parameters. Available options can be seen by running `h
 
 For example, to run all queries in Beeswax prepended with `_hourly` and caching the results in memcache:
 
-```
+{% highlight shell %}
 hiverunner --hourly \
 --mysql-host mysql01.example.com \
 --mysql-database beeswax \
@@ -64,11 +64,11 @@ hiverunner --hourly \
 --mysql-password secret \
 --hive-host hive01.example.com \
 --memcache-host cache01.example.com
-```
+{% endhighlight %}
 
 You can run the same command for all queries prepended with `_weekly` simply by changing the hourly parameter to weekly:
 
-```
+{% highlight shell %}
 hiverunner --weekly \
 --mysql-host mysql01.example.com \
 --mysql-database beeswax \
@@ -76,13 +76,13 @@ hiverunner --weekly \
 --mysql-password secret \
 --hive-host hive01.example.com \
 --memcache-host cache01.example.com
-```
+{% endhighlight %}
 
 If you find that you need to run custom named queries or only a single query the `custom` parameter makes this easy. Simply provide the name of the query that must be run.
 
 For example, to run a single query regardless of the prepended time-focused demarcation:
 
-```
+{% highlight shell %}
 hiverunner --custom _daily_custom_query \
 --mysql-host mysql01.example.com \
 --mysql-database beeswax \
@@ -90,7 +90,7 @@ hiverunner --custom _daily_custom_query \
 --mysql-password secret \
 --hive-host hive01.example.com \
 --memcache-host cache01.example.com
-```
+{% endhighlight %}
 
 This format makes it easy to schedule cron jobs.
 
