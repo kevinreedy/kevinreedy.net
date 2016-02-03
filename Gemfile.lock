@@ -51,6 +51,7 @@ GEM
     multipart-post (2.0.0)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
+    pdfkit (0.8.2)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -78,6 +79,7 @@ GEM
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
     websocket (1.2.2)
+    wkhtmltopdf-binary (0.9.9.3)
 
 PLATFORMS
   ruby
@@ -85,5 +87,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-sitemap
+  pdfkit
   s3_website
   travis
+  wkhtmltopdf-binary
