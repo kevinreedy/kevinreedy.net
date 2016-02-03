@@ -20,6 +20,9 @@ gems:
   - jekyll-sitemap
 
 # Build settings
+exclude:
+  - vendor
+
 markdown: kramdown
 kramdown:
   input: GFM
