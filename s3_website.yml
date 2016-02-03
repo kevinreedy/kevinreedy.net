@@ -1,0 +1,23 @@
+s3_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+s3_secret: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+s3_bucket: kevinreedy.net
+cloudfront_distribution_id: E1AM6B80J6WJOZ
+
+cloudfront_distribution_config:
+  default_cache_behavior:
+    min_TTL: <%= 60 * 60 * 24 %>
+
+cloudfront_invalidate_root: true
+
+max_age:
+  "assets/*": 6000
+  "*": 300
+
+gzip:
+  - .html
+  - .css
+  - .md
+
+exclude_from_upload:
+  - Gemfile
+  - Gemfile.lock

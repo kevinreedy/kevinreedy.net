@@ -12,7 +12,7 @@ In this Lightning talk at [DevOpsDays Rockies](http://www.devopsdaysrox.org/), I
 
 ### Video
 
-<iframe src="http://livestream.com/accounts/1466347/events/3991534/videos/84970057/player?autoPlay=false&height=416&mute=false&width=740" width="740" height="416" frameborder="0" scrolling="no"></iframe>
+<iframe src="//livestream.com/accounts/1466347/events/3991534/videos/84970057/player?autoPlay=false&height=416&mute=false&width=740" width="740" height="416" frameborder="0" scrolling="no"></iframe>
 
 ### Slides
 
