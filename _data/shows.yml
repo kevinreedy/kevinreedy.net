@@ -8,10 +8,43 @@ shows:
       - Streetlight Manifesto
       - Whole Wheat Bread
   - date: 2011-08-05
+    name: Lollapalooza 2011
+    venue: Grant Park
+    city: Chicago, IL
+    artists:
+      - Ratatat
+      - Girl Talk
+      - Muse
+      - A Perfect Circle
+      - Two Door Cinema Club
+  - date: 2011-08-05
     venue: Congress Theater
     city: Chicago, IL
     artists:
       - Pretty Lights
+  - date: 2011-08-07
+    name: Lollapalooza 2011
+    venue: Grant Park
+    city: Chicago, IL
+    artists:
+      - Foo Fighters
+      - Deadmau5
+  - date: 2011-08-12
+    venue: Congress Theater
+    city: Chicago, IL
+    artists:
+      - Digitalism
+      - Jack Beats
+  - date: 2011-08-13
+    venue: V Live
+    city: Chicago, IL
+    artists:
+      - Alex Kenji
+  - date: 2011-09-02
+    venue: Sound-Bar
+    city: Chicago, IL
+    artists:
+      - James Zabiela
   - date: 2011-09-02
     venue: The Mid
     city: Chicago, IL
@@ -29,6 +62,11 @@ shows:
     city: Chicago, IL
     artists:
       - Amon Tobin
+  - date: 2011-11-05
+    venue: Smartbar
+    city: Chicago, IL
+    artists:
+      - Steffi
   - date: 2012-01-07
     venue: Metro
     city: Chicago, IL
@@ -71,7 +109,7 @@ shows:
     artists:
       - James Zabiela
   - date: 2012-06-02
-    venue: Smart Bar
+    venue: Smartbar
     city: Chicago, IL
     artists:
       - Christina Chatfield
@@ -144,7 +182,7 @@ shows:
       - Coheed and Cambria
       - Slapstick
       - The Gaslight Anthem
-      - Andrew WK
+      - Andrew W.K.
       - Hot Water Music
   - date: 2012-10-12
     venue: Park West
@@ -164,7 +202,7 @@ shows:
       - Richie Hawtin
       - Kevin Saunderson
   - date: 2012-11-16
-    venue: Smart Bar
+    venue: Smartbar
     city: Chicago, IL
     artists:
       - LTJ Bukem
@@ -201,7 +239,7 @@ shows:
     artists:
       - Sundowner
   - date: 2013-05-31
-    venue: Smart Bar
+    venue: Smartbar
     city: Chicago, IL
     artists:
       - Eats Everything
@@ -564,3 +602,90 @@ shows:
     city: Chicago, IL
     artists:
       - Beast Warrior
+  - date: 2015-09-06
+    name: North Coast Music Festival 2015
+    venue: Union Park
+    city: Chicago, IL
+    artists:
+      - The Chemical Brothers
+      - Green Velvet
+      - Future Rock
+      - Goldfish
+      - Hexes
+  - date: 2015-09-06
+    venue: The Mid
+    city: Chicago, IL
+    artists:
+      - Green Velvet
+      - Huxley
+  - date: 2015-09-11
+    name: Riot Fest 2015
+    venue: Douglas Park
+    city: Chicago, IL
+    artists:
+      - Alkaline Trio
+      - Thrice
+      - Real Friends
+      - No Doubt
+      - Mustard Plug
+      - Bayside
+      - Mest
+  - date: 2015-09-12
+    name: Riot Fest 2015
+    venue: Douglas Park
+    city: Chicago, IL
+    artists:
+      - Alexisonfire
+      - The Lawrence Arms
+      - Taking Back Sunday
+      - The Academy Is...
+      - Pennywise
+  - date: 2015-09-13
+    name: Riot Fest 2015
+    venue: Douglas Park
+    city: Chicago, IL
+    artists:
+      - The Prodigy
+      - Andrew W.K.
+      - Less Than Jake
+      - Tenacious D
+  - date: 2015-10-29
+    venue: Smartbar
+    city: Chicago, IL
+    artists:
+      - The Faint (DJ Set)
+  - date: 2015-11-07
+    venue: Concord Music Hall
+    city: Chicago, IL
+    artists:
+      - New Found Glory
+      - Yellowcard
+  - date: 2015-12-10
+    venue: Double Door
+    city: Chicago, IL
+    artists:
+      - The Lawrence Arms
+      - Off With Their Heads
+  - date: 2015-12-11
+    venue: Concord Music Hall
+    city: Chicago, IL
+    artists:
+      - The Main Squeeze
+      - The Heard
+  - date: 2015-12-18
+    venue: Beat Kitchen
+    city: Chicago, IL
+    artists:
+      - Beast Warrior
+  - date: 2015-12-19
+    venue: Subterranean
+    city: Chicago, IL
+    artists:
+      - Mustard Plug
+      - MU330
+  - date: 2016-01-23
+    venue: Primary
+    city: Chicago, IL
+    artists:
+      - Worthy
+      - Happyghost
