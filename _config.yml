@@ -21,4 +21,8 @@ gems:
 
 # Build settings
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - s3_website.yml
   - vendor

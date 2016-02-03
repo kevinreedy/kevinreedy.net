@@ -17,7 +17,3 @@ gzip:
   - .html
   - .css
   - .md
-
-exclude_from_upload:
-  - Gemfile
-  - Gemfile.lock
