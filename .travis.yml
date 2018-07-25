@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.1
+- 2.5.1
 script:
   - bundle exec jekyll build --verbose
   - if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then bundle exec s3_website push --verbose; fi

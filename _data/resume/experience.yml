@@ -1,10 +1,18 @@
 - org: Chef
+  role: Customer Architect
+  bullets:
+    - "Lead customers with their architecture design and application of Chef's products to derive meaningful business value"
+    - "Manage 15-20 client accounts, focusing on using technology to enable their businesses"
+    - "Work with the rest of the account team (Customer Success Manager and Sales) to define and execute account strategy, escalating to other teams in the organization (Product, Engineering, Support, Marketing, etc.) when necessary"
+  location: Chicago, IL
+  when: January 2017 - Present
+- org: Chef
   role: Customer Engineer
   bullets:
-    - "Guide customers to be successful both technically and culturally with their DevOps Journey and Chef's Products"
-    - "Develop reusable solutions to technical problems and challenges encountered by customers"
+    - "Guided customers to be successful both technically and culturally with their DevOps Journey and Chef's Products"
+    - "Developed reusable solutions to technical problems and challenges encountered by customers"
   location: Chicago, IL
-  when: September 2015 - Present
+  when: September 2015 - January 2017
 - org: Belly
   role: Infrastructure Architect
   location: Chicago, IL

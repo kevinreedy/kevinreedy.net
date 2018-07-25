@@ -16,7 +16,7 @@ twitter_username: kevinreedy
 github_username: kevinreedy
 linkedin_username: kevinreedy
 
-gems:
+plugins:
   - jekyll-sitemap
 
 # Build settings
