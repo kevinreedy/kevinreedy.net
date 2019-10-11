@@ -1,12 +1,15 @@
 language: ruby
 rvm:
-- 2.5.1
+- 2.5.7
 script:
-  - bundle exec jekyll build --verbose
-  - if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then bundle exec s3_website push --verbose; fi
+- bundle exec jekyll build --verbose
+- if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then bundle
+  exec s3_website push --verbose; fi
 after_success:
-  - if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then curl -IL https://www.google.com/webmasters/tools/ping?sitemap=https://kevinreedy.net/sitemap.xml; fi
+- if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then curl
+  -IL https://www.google.com/webmasters/tools/ping?sitemap=https://kevinreedy.net/sitemap.xml;
+  fi
 env:
   global:
-  - secure: "m0Qi0uMMUFes54d6THtUk85bYT0uk3SnPzAEaIN1n5mbrnB6ujXxO8C0sERGEkEsenga6l+FeOYnVlJugwsPae8f6iEAI8MNCQ4Ng5+q5Jr9Gi3F+JH1a0bqh4n9yS+qzPl3VbqSBvt7w0pxQtscNsut/DWS0Ndea6T7yascA+ESNb3ixw1I7hqKqKuxuuf6aPjR2XMDWcOqlwBBIpYRiKEJ6Fme00UoG9byqFbx0GTv9PPjpyq+GUZLqWgBnvkeBnnaT/0zmcMUL/clLeORt5G/PKlw4U3AtnY+pYv99QzxX+jfWZ4T0P+vcU6bjewofCZ+bJA4wMXi7wvG/N8bMRC1aOau4Eq1sPtyccfTX566kCpl9KaURGzVeuKfgs+At+ky+DyIANT/GduECJjSfbPxGamdot3IKlsEjHXG2437T+P+zS9tNRtIA5o0Yy4o9VXepb+jFmaM/KZHOkU0I40ZmxyVoyKAAsGWRVreP9sIs+DBOWzaDYc9jK3lpsx7MMrH1mMc278s0MoxwIFma6LI0tgkOavELmKheAVwEwBoHNeMI0CWqfeAlIRpAe2PGobi/IdfYGLEkP9V26WRur7WjFPVxrGNAm2pFHfleXL3dolIk97vbxYCVAib5pPZ1833dvv20ljbKGca5euXGNv3dj2KqnwmHDU1Y6NOGbA="
-  - secure: "AYWDE3Z1oAXgoO3oxrUEXQJXrXmSOeuunFtz94CfoBlwC+Dq3SwmxWdPdLJqHxFSyN1RqLOKVq9Drv9/Cxbf7uV1k5BZ1+ERq0f1779/nNr21ZhdmAAGIJoBdxc3vTcZ7pfieSczh0+ga1BtEaBaQEyJ9iw95O0q3ePb0uwaXOVAv/p5XkS3NIZB1ZxJr9h1OxN7119obuMJbChiIfM9/we9AOBi/+QRo6o07a7g1L+mnHUQXp9jC2CsBznTXmtNZRVTzom898VN1J7HeNYnbmDuH8/KvK9ApRsL2lFXP8eyWLzTWpAmuY06r7NWxuSqqI5R8eDZrDRYdQXEFOScFQpYOcP11p7FqhPdWcJFn56FMGtVmWq0qwbh1pinNwZEyjKhPYMyBuGf+hnWblxXYIjxCRuLlp/IgozI2K6+usVuAt5gPFM40PnkXsMJNs8QY3nIPNT48khQdsG21sVcSdNaKfgI5ECtpsW/1OjCjeqXSjuNVhPTAVG5mhRSGlI11DfYKAm6B2LdutB+/7Tu7tzHhh1teBZv09xglduX9/J6f5G4jg/vadmuhCqSkIUuoKMH7J9nPSGPghnVkYbAUy0671bpuP2K3cusQ/ZQQif+RGcwrzk+CZdtnXWeuFj6ah5fkLAlzLCt4xi2klc6c/pZ6Rzz/k69lnrHTPdfgAQ="
+  - secure: 1PxdFxsn7nC7Gyqa3ea8XVobA/zu+5sW1AgUZxus+9unQTvNLvUVVM37EvTWCdKrIOGJ9jv5TX6eQLbRv1Tf0YHidXHwJrnZsEoE57r8z9akD95rBgl+0iYR1jkb7KoX1emd0ou0rRSjZkaV3PEatoGwsx3JQPdUs/mafYCchLpOV1J0e4mdHH0vsT5CdXx3WkJhFJAiMWsBatWIedrDQIu8uwf2hZPDWEww3AAQvfHUzKaL8/N/sXSoHlKOvSvMxgUiWddUAcEJK5a4MKBoSnT26gzRBsDepIDIQNlDXXqvhPpaUd7sqhfPw+eTNkEy3g0n4DYfV8Q2tvLed+L41abWLH2qfQa6oU8LpcVqDRzerxHt6jQPpIbguVI/QLwryoOqqLziUqFhnXSsr4qM16Au9E+yOo80rmbyj/HRHLrGk616L3Hm7CkgBRdcXkqjpKKh/mtnbKPYj3LQ76fH9k7dbLFfdYPjPHtQBEwl8N8AD9WYzuupF/Gf1tKLB8bqAV0oboVi7P7xduL+Hhbjcpu/ZprWUp8acrTLH74eHCagXgmorJznyf8Y3WlyMbCHwbTdj8pqVddIQ17CFAj+dBIu6Vb9lAMEiN85Sx+fDQGM1+JSNM9bEYI+NDxKc5KCEKQew+ODk0ZEGKx3gBl2uZcIjIg/mVfEVvpkW8d07+0=
+  - secure: gnLAEdclIySjT5fVuZh9bjn6UXop/Y2CncjQKIIty5zx1+8bzu7bjzNNGpJVsgtk6MtGeOgPMMXHve5br9XST8P4A/ruHCGk0IexU4rbBiTX1DqZevD8sz6v62+JBH+bAA9YNEG8G25s+SWMFJcihPoTSIapNzkAe71Ks/5HeNeFWSX96Q2UC5aLygOMgwM4vJl6GLnsOpe1f+EEskUgDlMwXnrOJLg6jxzz2/Qep1m/4xL6wyuOAy7kuPlXSp4Flao1OzXNyE6LyxASW7DgGwLdz0Y54FbXhioO9ar4ydIidI/weCj2MNS8ubJ9+4ssN016DMmKG+CgDj1i5dG+LCsZW9Tlhqr6R4k3GvurRd/zCbOmqz1d/QfrYBKnymwpuPKag3rZcpwMdpEqJTLzc+U28byuK8DkVaIDWHJEMxYZnMXM275Jgdl7ohEuVoP7DDKd/V4co/kD+DCOIMavCHOLZpfL9N2AdXk2d2YFO7bEBz9gWxOHbPEmYhbEQJoDXJMhY3zKAPonFMq5xhXGxx1PUNaq+Dz3BhWw5umDLPbtFngqeg5FosGn6ev8HGtwZmYA8XkCUX0Nn5Hy++wUOaZaWiVGcBETM8LikYQhIJNFOm2QZMaDmCYAsKkA10y09bCrGcwk8unmlh9X/tHYuYbsZ0c/vI5mCtrADK+Q/hw=
