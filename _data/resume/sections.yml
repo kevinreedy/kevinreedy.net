@@ -11,7 +11,3 @@
 - name: Education
   id: education
   layout: block
-
-- name: Skills
-  id: skills
-  layout: cloud
