@@ -1,11 +1,19 @@
+- org: Kong
+  role: Senior Technical Account Manager
+  bullets:
+    - "Ensure constant communication with customers to help become customer’s trusted technical advisor and partner"
+    - "Establish business value for customers and help them achieve their targets and ROI"
+    - "Effectively manage the tracking and resolution of customer escalations on behalf of product and services"
+  location: Chicago, IL
+  when: February 2017 - Present
 - org: Chef
   role: Customer Architect
   bullets:
-    - "Lead customers with their architecture design and application of Chef's products to derive meaningful business value"
-    - "Manage 15-20 client accounts, focusing on using technology to enable their businesses"
-    - "Work with the rest of the account team (Customer Success Manager and Sales) to define and execute account strategy, escalating to other teams in the organization (Product, Engineering, Support, Marketing, etc.) when necessary"
+    - "Led customers with their architecture design and application of Chef's products to derive meaningful business value"
+    - "Managed 15-20 client accounts, focusing on using technology to enable their businesses"
+    - "Worked with the rest of the account team (Customer Success Manager and Sales) to define and execute account strategy, escalating to other teams in the organization (Product, Engineering, Support, Marketing, etc.) when necessary"
   location: Chicago, IL
-  when: January 2017 - Present
+  when: January 2017 - January 2020
 - org: Chef
   role: Customer Engineer
   bullets:
