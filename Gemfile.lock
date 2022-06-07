@@ -61,7 +61,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     json (2.2.0)
     kramdown (1.17.0)
     launchy (2.4.3)
