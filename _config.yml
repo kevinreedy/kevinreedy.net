@@ -2,14 +2,10 @@
 title: kevinreedy.net
 author: Kevin Reedy
 email: kevinreedy@gmail.com
-description: >
-  Bits.
-  Beats.
-  Things that start with 'B' for $800.
 meta_description: >
-  Homepage of Kevin Reedy, Customer Engineer at Chef and Automation Enthusiast from Chicago, IL.
+  Homepage of Kevin Reedy, Founder of RecRec, from Chicago, IL.
   He has a love/hate relationship with the word DevOps.
-  In his free time, he enjoys Brewing Beer, Snowboarding, and DJing.
+  In his free time, he enjoys Playing Shuffleboard, Cycling, Cooking, Brewing Beer, and promising himself that he'll update his Blog more often.
 baseurl: ""
 url: "https://kevinreedy.net" # the base hostname & protocol for your site
 twitter_username: kevinreedy
