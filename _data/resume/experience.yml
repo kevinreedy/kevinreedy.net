@@ -1,26 +1,39 @@
+- org: RecRec
+  role: Founder
+  location: Chicago, IL
+  when: April 2021 - Present
+  bullets:
+    - "Built a modern, mobile-friendly platform for recreational sports groups to manage registration, payment collection, data-driven scheduling, and standings tracking"
+    - "Developed a custom system for more detailed score tracking for certain sports"
+    - "Advised both established and up-and-coming sports leagues on how to better engage their players and communities, leading to higher return rates of teams and players"
+    - "Planned and live-streamed tournaments and other events to help bring some out-of-the-ordinary sports to a wider audience"
+
 - org: Kong
   role: Senior Technical Account Manager
-  bullets:
-    - "Ensure constant communication with customers to help become customer’s trusted technical advisor and partner"
-    - "Establish business value for customers and help them achieve their targets and ROI"
-    - "Effectively manage the tracking and resolution of customer escalations on behalf of product and services"
   location: Chicago, IL
   when: February 2020 - April 2021
+  bullets:
+    - "Ensured constant communication with customers to help become customer’s trusted technical advisor and partner"
+    - "Established business value for customers and help them achieve their targets and ROI"
+    - "Effectively managed the tracking and resolution of customer escalations on behalf of product and services"
+
 - org: Chef
   role: Customer Architect
+  location: Chicago, IL
+  when: January 2017 - January 2020
   bullets:
     - "Led customers with their architecture design and application of Chef's products to derive meaningful business value"
     - "Managed 15-20 client accounts, focusing on using technology to enable their businesses"
     - "Worked with the rest of the account team (Customer Success Manager and Sales) to define and execute account strategy, escalating to other teams in the organization (Product, Engineering, Support, Marketing, etc.) when necessary"
-  location: Chicago, IL
-  when: January 2017 - January 2020
+
 - org: Chef
   role: Customer Engineer
+  location: Chicago, IL
+  when: September 2015 - January 2017
   bullets:
     - "Guided customers to be successful both technically and culturally with their DevOps Journey and Chef's Products"
     - "Developed reusable solutions to technical problems and challenges encountered by customers"
-  location: Chicago, IL
-  when: September 2015 - January 2017
+
 - org: Belly
   role: Infrastructure Architect
   location: Chicago, IL
