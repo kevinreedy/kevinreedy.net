@@ -11,6 +11,8 @@ url: "https://kevinreedy.net" # the base hostname & protocol for your site
 twitter_username: kevinreedy
 github_username: kevinreedy
 linkedin_username: kevinreedy
+mastodon_username: "@kevinreedy@hachyderm.io"
+mastodon_profile: https://hachyderm.io/@kevinreedy
 
 plugins:
   - jekyll-sitemap
