@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.6.10'
+ruby '3.1.3'
 
-gem 'jekyll', '~> 3.9'
-gem 's3_website'
+gem 'jekyll'
 gem 'jekyll-sitemap'
-gem 'travis'
 gem 'pdfkit'
 gem 'wkhtmltopdf-binary'
 gem 'kramdown-parser-gfm'

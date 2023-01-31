@@ -11,6 +11,7 @@ Jekyll::Hooks.register :pages, :post_write do |page|
       margin_left: margin,
       margin_right: margin,
       print_media_type: true,
+      enable_local_file_access: true,
       no_background: true
     )
 
